@@ -9,5 +9,11 @@ from datetime import datetime
 
 def home(request):
     """Renders the home page."""
-    return render(request, 'WebApp/index.html')
+    return render(
+        request,
+        'WebApp/index.html',
+        {
+            'title': 'Home',
+        }
+    )
 

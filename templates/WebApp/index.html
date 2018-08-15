@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ title }} - My Django Application</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/layout.css' %}?{% now "U" %}"><!-- now "U" updates css versions for caching -->
+    {% block stylesheets %}{% endblock %}
 </head>
 <body>
-
+    
+    {% block scripts %}{% endblock %}
 </body>
 </html>

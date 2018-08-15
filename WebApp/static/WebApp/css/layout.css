@@ -1,0 +1,30 @@
+h1, p, a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header, h1, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clearfix fixes spaces made by float elements and clears child elements */
+.clearfix::before {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+/* Used for elements where a background image is
+needed and to clear the text in that element */
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
