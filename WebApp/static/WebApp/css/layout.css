@@ -10,6 +10,10 @@ header, h1, a {
     box-sizing: border-box;
 }
 
+.background {
+    background-color: #000000;
+}
+
 /* Clearfix fixes spaces made by float elements and clears child elements */
 .clearfix::before {
     content: " ";
