@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>{{ title }} - My Django Application</title>
     {% load staticfiles %}
-    <!-- now "U" updates css versions for caching based on Unix Epoch-->
+    <!-- "now 'U'" updates css versions for caching based on Unix Epoch-->
     <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/layout.css' %}?{% now "U" %}">
     {% block stylesheets %}{% endblock %}
 </head>
