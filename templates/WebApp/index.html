@@ -9,17 +9,29 @@
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
+    <header class="navbar" id="nav">
+        <nav class="primary clearfix">
+            <div class="nav-icon">
+                <div class="menu icon"></div>
+            </div>
+            <div class="right-align">
+                <a href="#" class="items">Home</a>
+                <a href="#" class="items">About</a>
+                <a href="#" class="items">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-    <form method="post">
+{% comment %}<form method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Submit</button>
-    </form>
+    </form>{% endcomment %}
 
     <!-- jQuery CDN Link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Insert Javascript files below -->
-    <script type="text/javascript" src="{% static 'WebApp/js/default.js' %}"></script>
+    <script type="text/javascript" src="{% static 'WebApp/js/default.js' %}?{% now "U" %}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>
