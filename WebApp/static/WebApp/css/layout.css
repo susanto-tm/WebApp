@@ -31,7 +31,7 @@ nav.primary {
 nav.primary div.right-align {
     float: right;
     height: 100%;
-    margin-top: 23px;
+    margin-top: 25px;
 }
 nav.primary div.right-align a.items {
     margin: 0 8px;
@@ -45,78 +45,6 @@ nav.primary div.right-align a.items {
     float: left;
     width: 50px;
 }*/
-.nav-icon {
-    height: 100%;
-    /*margin-top: 33px;*/
-    width: 50px;
-    float: left;
-    cursor: pointer;
-}
-nav.primary div.menu.icon {
-    color: #FFFFFF;
-    position: absolute;
-    /*margin-left: 18px;*/
-    margin-top: 33px;
-    width: 17px;
-    height: 1px;
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    -o-transform: scale(1.3);
-    transform: scale(1.3);
-    background-color: currentColor;
-}
-nav.primary .menu.icon::before {
-    content: ' ';
-    position: absolute;
-    top: -5px;
-    left: 0;
-    width: 17px;
-    height: 1px;
-    background-color: currentColor;
-}
-nav.primary .menu.icon::after {
-    content: ' ';
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 17px;
-    height: 1px;
-    background-color: currentColor;
-}
-.close.icon {
-    color: #ffffff;
-    position: absolute;
-    margin-top: 23px;
-    width: 21px;
-    height: 21px;
-}
-.close.icon::before {
-    content: ' ';
-    position: absolute;
-    top: 10px;
-    width: 21px;
-    height: 1px;
-    background-color: currentColor;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-.close.icon::after {
-    content: ' ';
-    position: absolute;
-    top: 10px;
-    width: 21px;
-    height: 1px;
-    background-color: currentColor;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-.icon, .icon::before, .icon::after {
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
 /*Navbar css-icons testing*/
 
 /* Clearfix fixes spaces made by float elements and clears child elements */
