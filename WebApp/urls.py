@@ -17,10 +17,29 @@ from django.conf.urls import url, include
 from WebApp import views
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib.auth import views as auth_views
+
+import WebApp.forms
 
 urlpatterns = [
     # url(r'^admin/', include(admin.sites.url)),
     url(r'^$', views.HomeView.as_view(), name='home'),
+    url(r'^login/$', 
+        auth_views.login,
+        {
+            'template_name': 'WebApp/login.html',
+            'extra_context':
+            {
+                'title': 'Login Page',
+            },
+        },
+        name='login'),
+    url(r'^logout/$',
+        auth_views.logout,
+        {
+            'next_page': '/', 
+        },
+        name='logout'),
     # path('', views.home, name='home'),
 ]
 urlpatterns += staticfiles_urlpatterns()

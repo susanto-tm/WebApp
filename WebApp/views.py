@@ -22,3 +22,4 @@ class HomeView(TemplateView):
                 'title': 'Home',
             }
         )
+

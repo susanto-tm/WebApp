@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ title }} - My Django Application</title>
+    <title>{{ title }}</title>
     {% load staticfiles %}
     <!-- now "U" updates css versions for caching based on Unix Epoch-->
     <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/layout.css' %}?{% now 'U' %}">
@@ -23,7 +23,7 @@
         </nav>
     </header>
     
-
+    {%block content %}{% endblock %}
 {% comment %}<form method="post">
         {% csrf_token %}
         {{ form.as_p }}
