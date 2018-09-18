@@ -28,6 +28,7 @@ urlpatterns = [
         auth_views.login,
         {
             'template_name': 'WebApp/login.html',
+            'authentication_form': WebApp.forms.LoginFields,
             'extra_context':
             {
                 'title': 'Login Page',
