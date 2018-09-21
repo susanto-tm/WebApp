@@ -1,17 +1,16 @@
-{% extends "WebApp/index.html" %}
-
-{% load staticfiles %}
-{% block stylesheets %}
-<link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">
-{% endblock %}
-
-{% block content %}
-<title>{{ title }}</title>
-
-<h2 class='loginHeader'>Login</h2>
-<form method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Login</button>
-</form>
-{% endblock %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stlesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">
+</head>
+<body>
+    <h2 class='loginHeader'>Login</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
