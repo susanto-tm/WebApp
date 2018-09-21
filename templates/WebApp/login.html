@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ title }}</title>
-    <link rel="stlesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">
 </head>
 <body>
-    <h2 class='loginHeader'>Login</h2>
-    <form method="POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Login</button>
-    </form>
+    <div class="forms clearfix">
+        <div class="formsContainer">
+            <form method="POST" class="formFields">
+                {% csrf_token %}
+                <h2 class='loginHeader'>Log back into your account</h2>
+                {% load widget_tweaks %}
+                <p class="required">
+                    {{ form.username }}
+                </p>
+                <p class="required">
+                    {{ form.password|add_class:"form-control"|attr:"placeholder:Password" }}
+                </p>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'WebApp/js/forms.js' %}?{% now 'U' %}"></script>
 </body>
 </html>
