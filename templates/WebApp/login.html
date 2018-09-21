@@ -19,7 +19,8 @@
                 <p class="required">
                     {{ form.password|add_class:"form-control"|attr:"placeholder:Password" }}
                 </p>
-                <button type="submit">Login</button>
+                <button type="submit" class="submitButton">Login</button>
+                <p class="back"><a href="{% url 'home' %}">&lt Back</a></p>
             </form>
         </div>
     </div>

@@ -29,10 +29,10 @@ input, textarea, [contenteditable] {
     display: flex;
     justify-content: center;
 }
-
 .loginHeader {
     font-family: "Arial", sans-serif;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 20px;
     color: #FFFFFF;
 }
 .formFields {
@@ -51,7 +51,6 @@ input, textarea, [contenteditable] {
     font-size: 16px;
     padding: 10px 0;
 }
-
 .borderAnimateForm {
     border-bottom: #FFFFFF solid 2px;
     -webkit-transition: border-bottom-color 200ms ease-in-out;
@@ -59,6 +58,32 @@ input, textarea, [contenteditable] {
     -ms-transition: border-bottom-color 200ms ease-in-out;
     -o-transition: border-bottom-color 200ms ease-in-out;
     transition: border-bottom-color 200ms ease-in-out;
+}
+.submitButton {
+    border-radius: 5px;
+    width: 300px;
+    height: 38px;
+    background-color: #f2f2f2;
+    border: transparent solid;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.submitButton:hover {
+    background-color: #FFFFFF;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -ms-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
+.back {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+.back a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .clearfix::before {
     content: " ";
