@@ -13,7 +13,7 @@ class LoginFields(AuthenticationForm):
                                label='',
                                widget=forms.TextInput({
                                    'class': 'form-control',
-                                   'placeholder': 'Email Address'}))
+                                   'placeholder': 'Username'}))
     password = forms.CharField(max_length=30, label='', widget=forms.PasswordInput)
     required_css_class = 'required'
 
@@ -35,7 +35,7 @@ class SignUpForm(UserCreationForm):
     def __init__(self, *args, **kwargs):
         super(SignUpForm, self).__init__(*args, **kwargs)
 
-        for fieldname in ['username', 'password1', 'password2']:
+        for fieldname in ['username', 'password2']:
             self.fields[fieldname].help_text = None
 
     class Meta:

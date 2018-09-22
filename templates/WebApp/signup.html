@@ -31,7 +31,9 @@
                     <p class="required">
                         {{ form.password2|add_class:"form-control"|attr:"placeholder:Confirm Password *" }}
                     </p>
-                <button type="submit">Submit</button>
+                <button type="submit" class="submitButton">Submit</button>
+                <p class="back"><a href="{% url 'home' %}">&lt Back</a></p>
+                <p class="back"><a href="{% url 'login' %}">Login</a></p>
             </form>
         </div>
     </div>

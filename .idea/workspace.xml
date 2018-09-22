@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b544bbab-fe04-4024-8780-e74ac268f785" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/WebApp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/WebApp/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/static/WebApp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/static/WebApp/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/WebApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/WebApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/WebApp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/WebApp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/WebApp/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/WebApp/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,36 +85,36 @@
     <session id="-1995916847">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3541" />
-          <entry key="html" value="2735" />
-          <entry key="js" value="401" />
-          <entry key="py" value="2320" />
-          <entry key="txt" value="144" />
+          <entry key="css" value="4618" />
+          <entry key="html" value="3067" />
+          <entry key="js" value="686" />
+          <entry key="py" value="2523" />
+          <entry key="txt" value="184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3541" />
-          <entry key="HTML" value="2735" />
-          <entry key="JavaScript" value="401" />
-          <entry key="PLAIN_TEXT" value="144" />
-          <entry key="Python" value="2320" />
+          <entry key="CSS" value="4618" />
+          <entry key="HTML" value="3067" />
+          <entry key="JavaScript" value="686" />
+          <entry key="PLAIN_TEXT" value="184" />
+          <entry key="Python" value="2523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="8" />
+          <entry key="css" value="7" />
+          <entry key="html" value="9" />
           <entry key="js" value="3" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="8" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="9" />
           <entry key="JavaScript" value="3" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -134,33 +131,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApp/views.py">
+        <entry file="file://$PROJECT_DIR$/WebApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="319">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
-                <element signature="e#30#75#0" expanded="true" />
-                <marker date="1537604818218" expanded="true" signature="717:718" ph="..." />
-                <marker date="1537604818218" expanded="true" signature="717:722" ph="..." />
+                <element signature="e#307#316#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/WebApp/signup.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/WebApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#a#3;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#30#75#0" expanded="true" />
+                <marker date="1537613217538" expanded="true" signature="753:754" ph="..." />
+                <marker date="1537613217538" expanded="true" signature="753:758" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/WebApp/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="418">
+              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -169,7 +190,7 @@
         <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/js/forms.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -177,8 +198,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="73" column="59" lean-forward="true" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            <state relative-caret-position="95">
+              <caret line="79" selection-start-line="79" selection-end-line="86" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -186,8 +207,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="214">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="e#630#671#0" expanded="true" />
               </folding>
@@ -198,13 +219,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1537610231998" expanded="true" signature="708:713" ph="..." />
-                <marker date="1537610231998" expanded="true" signature="1505:1687" ph="..." />
-                <marker date="1537610231998" expanded="true" signature="1698:1707" ph="..." />
+                <marker date="1537614025132" expanded="true" signature="703:708" ph="..." />
+                <marker date="1537614025132" expanded="true" signature="1500:1669" ph="..." />
+                <marker date="1537614025132" expanded="true" signature="1680:1689" ph="..." />
               </folding>
             </state>
           </provider>
@@ -213,8 +234,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/WebApp/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+            <state relative-caret-position="255">
+              <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -230,23 +251,30 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>redirect</find>
+      <find>login</find>
+      <find>url</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebApp/static/WebApp/js/forms.js" />
-        <option value="$PROJECT_DIR$/WebApp/settings.py" />
         <option value="$PROJECT_DIR$/WebApp/urls.py" />
-        <option value="$PROJECT_DIR$/templates/WebApp/index.html" />
-        <option value="$PROJECT_DIR$/WebApp/views.py" />
         <option value="$PROJECT_DIR$/WebApp/static/WebApp/css/login.css" />
         <option value="$PROJECT_DIR$/templates/WebApp/base.html" />
-        <option value="$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css" />
         <option value="$PROJECT_DIR$/templates/WebApp/login.html" />
+        <option value="$PROJECT_DIR$/WebApp/static/WebApp/js/forms.js" />
+        <option value="$PROJECT_DIR$/WebApp/views.py" />
+        <option value="$PROJECT_DIR$/WebApp/settings.py" />
         <option value="$PROJECT_DIR$/WebApp/forms.py" />
+        <option value="$PROJECT_DIR$/templates/WebApp/index.html" />
         <option value="$PROJECT_DIR$/templates/WebApp/signup.html" />
+        <option value="$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css" />
       </list>
     </option>
   </component>
@@ -403,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537534485573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sign up pages added (css not yet done)">
+      <created>1537610292773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537610292773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -453,7 +488,8 @@
     <MESSAGE value="Urls Page updated to allow admin" />
     <MESSAGE value="Login Page added including the fields" />
     <MESSAGE value="Finished the Login Page and added login into the menu of the index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the Login Page and added login into the menu of the index.html" />
+    <MESSAGE value="Sign up pages added (css not yet done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign up pages added (css not yet done)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -479,39 +515,10 @@
     <entry file="file://$PROJECT_DIR$/WebApp/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="e#307#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/js/default.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/WebApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#75#0" expanded="true" />
-            <marker date="1537604818218" expanded="true" signature="717:718" ph="..." />
-            <marker date="1537604818218" expanded="true" signature="717:722" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,61 +536,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/WebApp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/js/forms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1537610231998" expanded="true" signature="708:713" ph="..." />
-            <marker date="1537610231998" expanded="true" signature="1505:1687" ph="..." />
-            <marker date="1537610231998" expanded="true" signature="1698:1707" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="73" column="59" lean-forward="true" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="214">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="e#630#671#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1537614025132" expanded="true" signature="703:708" ph="..." />
+            <marker date="1537614025132" expanded="true" signature="1500:1669" ph="..." />
+            <marker date="1537614025132" expanded="true" signature="1680:1689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/WebApp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#div#1;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/WebApp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#30#75#0" expanded="true" />
+            <marker date="1537613217538" expanded="true" signature="753:754" ph="..." />
+            <marker date="1537613217538" expanded="true" signature="753:758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/WebApp/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="350">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="79" selection-start-line="79" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/js/forms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/signup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
         </state>
       </provider>
     </entry>

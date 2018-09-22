@@ -19,8 +19,13 @@
                 <a href="#" class="items">About</a>
                 <a href="#" class="items">Ask Question</a>
                 <a href="#" class="items">Contact Us</a>
-                <a href="{% url 'login' %}" class="items">Login</a>
-                <a href="{% url 'signup' %}" class="items">Sign Up</a>
+                {% if user.is_authenticated %}
+                    <a href="#" style="margin-right: 10px;">User</a>
+                    <a href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                    <a href="{% url 'login' %}" class="items">Login</a>
+                    <a href="{% url 'signup' %}" class="items">Sign Up</a>
+                {% endif %}
             </div>
         </nav>
     </header>
