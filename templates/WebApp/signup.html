@@ -1,0 +1,42 @@
+{% extends 'WebApp/base.html' %}
+
+{% block stylesheet %}
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/signup.css' %}?{% now 'U' %}">
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">-->
+{% endblock %}
+
+{% block content %}
+    <div class="form clearfix">
+        <div class="formsContainer">
+            <form method="POST" class="formsField">
+                <h2 class="formsHeader">Set up your account: Signup</h2>
+                {% csrf_token %}
+                {% load widget_tweaks %}
+                    <p class="required">
+                        {{ form.username|add_class:"form-control"|attr:"placeholder:Username *" }}
+                    </p>
+                    <p class="required">
+                        {{ form.first_name }}
+                    </p>
+                    <p class="required">
+                        {{ form.last_name }}
+                    </p>
+                    <p class="required">
+                        {{ form.email }}
+                    </p>
+                    <p class="required">
+                        {{ form.password1|add_class:"form-control"|attr:"placeholder:Password *" }}
+                    </p>
+                    <p class="required">
+                        {{ form.password2|add_class:"form-control"|attr:"placeholder:Confirm Password *" }}
+                    </p>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+{% endblock%}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'WebApp/js/forms.js' %}?{% now 'U' %}"></script>
+{% endblock %}

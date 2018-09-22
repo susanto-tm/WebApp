@@ -41,6 +41,7 @@ urlpatterns = [
             'next_page': '/', 
         },
         name='logout'),
+    url(r'^signup/$', views.signup, name='signup')
     # path('', views.home, name='home'),
 ]
 urlpatterns += staticfiles_urlpatterns()

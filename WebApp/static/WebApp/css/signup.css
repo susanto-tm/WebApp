@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formsHeader {
+    font-family: "Arial", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.form-control {
+    background-color: transparent !important;
+    border: none;
+}
+.formsField {
+    text-align: center;
+}
+
+

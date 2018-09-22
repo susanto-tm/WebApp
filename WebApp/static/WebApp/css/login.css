@@ -24,7 +24,7 @@ input, textarea, [contenteditable] {
     text-align: left;
     font-family: 'Arial', sans-serif;
 }
-.forms {
+.form {
     align-items: center;
     display: flex;
     justify-content: center;
