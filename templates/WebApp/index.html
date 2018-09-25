@@ -2,11 +2,23 @@
 
 {% block stylesheets %}
     {% load staticfiles %}
-
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/index.css' %}?{% now 'U' %}">
 {% endblock %}
 
 {% block content %}
+        <div class="home-feature-background">
+            <nav class="primary">
+                <div class="">
+                <li class="items"><a href='#'>Home</a></li>
+                    {% if user.is_authenticated %}
+                <li class="items"><a href='#'>Login</a></li>
+                <li class="items"><a href ='#>Sign up</a>'></li>
+                <li class=                        
+                </div>
+            </nav>
+        </div>
 
+    <div>
 {% endblock %}
 
 {% block scripts %}
