@@ -7,29 +7,44 @@
 
 {% block content %}
         <div class="home-feature-background">
-            <nav class="primary">
-                <div class="">
-                <li class="items"><a href='#'>Home</a></li>
-                <li class="items"><a href='#'>Blog</a></li>
-                <li class="items"><a href='#'>Login</a></li>
-                <li class="items"><a href ='#'>Sign up</a></li>
-            <nav class="">
+            <!-- Navbar -->
+            <header class="navbar" id="nav">
+                <nav class="primary clearfix">
+                    <h1 class="logo">
+                        <a href="#" class="hide-text">Logo</a>
+                    </h1>
+                    <div class="right-align">
+                        <li class="items"><a href='#'>Home</a></li>
+                        <li class="items"><a href='#'>Blog</a></li>
+                        {% if user.is_authenticated %}
+                            <li class="items"><a href='#'>User</a></li>
+                            <li class="items"><a href ='#'>Logout</a></li>
+                        {% else %}
+                            <li class="items"><a href='#'>Login</a></li>
+                            <li class="items"><a href ='#'>Sign up</a></li>
+                        {% endif %}
+                    </div>
+                </nav>
+            </header>
+            <article class="home-feature-article">
                 <div>
+                    <!-- Is this navbar? cz there's alr one on top 
                     <div class="Logo">Logo</div>
                     <div class="Top info">Top info</div>
                     <div class="navbar">Navbar</div>
                     <div class="">
                         <li><a href="URL">LINK</a></li>
-                    </div>
-        <div class="contentArea">Content area</div>
-        <div class="banner">OPEN FORUM</div>
-        <div class="left_column">Questions</div>
-        <div class="right_column">Answers</div>
+                    </div>-->
+                    <div class="contentArea">Content area</div>
+                    <div class="banner">OPEN FORUM</div>
+                    <div class="left_column">Questions</div>
+                    <div class="right_column">Answers</div>
+                </div>
+            <div class="footer">Footer</div>
+            <div class=""></div>
+            <div class=""></div>
+            </article>
         </div>
-        <div class="footer">Footer</div>
-        <div class=""></div>
-        <div class="">
-        
 {% endblock %}
 
 {% block scripts %}

@@ -1,4 +1,42 @@
-.home-feature-background {
-    width: 100%;
+h1, a, p, li {
+    font-family: 'Arial', sans-serif;
+}
+
+div.home-feature-background {
+    margin: 0;
+    padding: 0;
+}
+.navbar#nav {
+    display: block;
     height: 70px;
+    width: 100%;
+}
+.primary {
+    height: 100%;
+    background-color: #000000;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+h1.logo {
+    float: left;
+    margin-top: 21px;
+}
+div.right-align {
+    float: right;
+    height: 100%;
+    margin-top: 25px;
+}
+nav.primary li.items {
+    list-style-type: none;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 8px;
+}
+nav.primary li.items a {
+    text-decoration: none;
+
+}
+/* article styling */
+article.home-feature-article {
+    margin-top: 20px;
 }
