@@ -14,13 +14,13 @@
                         <a href="#" class="hide-text">Logo</a>
                     </h1>
                     <div class="right-align">
-                        <li class="items"><a href='#'>Home</a></li>
-                        <li class="items"><a href='#'>Blog</a></li>
+                        <li class="items"><a href='{% url "home" %}'>Home</a></li>
+                        <li class="items"><a href='{% url "blog" %}'>Blog</a></li>
                         {% if user.is_authenticated %}
-                            <li class="items"><a href='#'>User</a></li>
-                            <li class="items"><a href ='#'>Logout</a></li>
+                            <li class="items"><a href='{% url "user" %}'>User</a></li>
+                            <li class="items"><a href ='{% url "logout" %}'>Logout</a></li>
                         {% else %}
-                            <li class="items"><a href='#'>Login</a></li>
+                            <li class="items"><a href="login.html">Login</a></li>
                             <li class="items"><a href ='#'>Sign up</a></li>
                         {% endif %}
                     </div>
