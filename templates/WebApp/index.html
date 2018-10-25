@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ title }} - My Django Application</title>
+    <title>{{ title }}</title>
     {% load staticfiles %}
     <!-- "now 'U'" updates css versions for caching based on Unix Epoch-->
-    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/layout.css' %}?{% now "U" %}">
-    {% block stylesheets %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/layout.css' %}?{% now 'U' %}">
+    {% block stylesheet %}{% endblock %}
 </head>
 <body>
-
+    {% block navbar %}{% endblock %}
+    {% block content %}{% endblock %}
     <!-- jQuery CDN Link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Insert Javascript files below -->

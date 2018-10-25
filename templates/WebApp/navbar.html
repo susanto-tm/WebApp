@@ -1,0 +1,28 @@
+{% extends 'WebApp/index.html' %}
+
+{% block stylesheet %}
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/nav.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/icon.css' %}?{% now 'U' %}">
+{% endblock %}
+
+{% block navbar %}
+<header class="navbar" id="nav">
+    <nav class="primary clearfix">
+        <div class="nav-icon">
+            <div class="menu icon"></div>
+        </div>
+        <div class="right-align">
+            <a href="{% url 'home' %}" class="items">Home</a>
+            <a href="" class="items">Ask Question</a>
+            {% if user.is_authenticated %}
+                <a href="#" class="items">User</a>
+                <a href="" class="items">Logout</a>
+            {% else %}
+                <a href="" class="items">Login</a>
+                <a href="" class="items">Register</a>
+            {% endif %}
+        </div>
+    </nav>
+</header>
+{% endblock %}

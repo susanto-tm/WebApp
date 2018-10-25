@@ -11,9 +11,8 @@ def home(request):
     """Renders the home page."""
     return render(
         request,
-        'WebApp/index.html',
+        'WebApp/home.html',
         {
             'title': 'Home',
         }
     )
-
