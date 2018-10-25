@@ -3,7 +3,7 @@ var main = function(){
     $('.nav-icon').click(function() {
         $('.icon')
             .toggleClass('menu')
-            .toggleClass('close');
+            .toggleClass('close'); 
     })
 };
 
