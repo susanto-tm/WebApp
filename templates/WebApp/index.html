@@ -11,25 +11,7 @@
     {% block stylesheet %}{% endblock %}
 </head>
 <body>
-        <header class="navbar" id="nav">
-                <nav class="primary clearfix">
-                    <div class="nav-icon">
-                        <div class="menu icon"></div>
-                    </div>
-                    <div class="right-align">
-                        <a href="{% url 'home' %}" class="items">Home</a>
-                        <a href="" class="items">Ask Question</a>
-                        {% if user.is_authenticated %}
-                            <a href="#" class="items">User</a>
-                            <a href="{% url 'logout' %}" class="items">Logout</a>
-                        {% else %}
-                            <a href="{% url 'login' %}" class="items">Login</a>
-                            <a href="{% url 'signup' %}"  class="items">Register</a>
-                        {% endif %}
-                    </div>
-                </nav>
-            </header>
-            
+    {% block navbar %}{% endblock %}
     {% block content %}{% endblock %}
     <!-- jQuery CDN Link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
