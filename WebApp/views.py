@@ -17,12 +17,12 @@ from django.urls import reverse_lazy
 class HomeView(TemplateView):
     template_name = 'WebApp/home.html'
 
-    def home(self, request):
+    def get(self, request):
         return render(
             request,
             self.template_name,
             {
-                'title': "Home",
+                'title': 'Home',
             }
         )
 
