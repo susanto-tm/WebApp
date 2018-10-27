@@ -2,10 +2,11 @@ from django import forms
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth.models import User
 
+
 class LoginFields(AuthenticationForm):
     username = forms.CharField(max_length=254,
                                label='',
-                               widget=forms.TextInput({
+                               widget=forms.EmailInput({
                                    'class': 'form-control',
                                    'placeholder': 'Email'}))
     password = forms.CharField(max_length=10, label='', widget=forms.PasswordInput)
@@ -30,8 +31,8 @@ class SignUpForm(UserCreationForm):
         super(SignUpForm, self).__init__(*args, **kwargs)
 
         for fieldname in ['username', 'password1']:
-            self.fields[fieldname].help_text = None;
+            self.fields[fieldname].help_text = None
 
     class Meta:
         model = User
-        fields = ['username', 'first_name', 'last_name', 'email', 'password1', 'password2',]
+        fields = ['username', 'first_name', 'last_name', 'email', 'password1', 'password2']
