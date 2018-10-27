@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.HomeView.as_view(), name='home'),
     url(r'^login/$',
-        auth_views.login,
+        auth_views.LoginView,
         {
             'template_name': 'WebApp/login.html',
             'authentication_form': WebApp.forms.LoginFields,
@@ -36,7 +36,7 @@ urlpatterns = [
         },
         name='login'),
     url(r'^logout/$',
-        auth_views.logout,
+        auth_views.LogoutView,
         {
             'next_page': '/', 
         },

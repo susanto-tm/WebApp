@@ -42,7 +42,6 @@ input, textarea, [contenteditable] {
     font-family: 'Arial', sans-serif;
     position: relative;
 }
-
 .form-control {
     background-color: transparent !important;
     border-bottom: #5f5f5f solid 2px;
