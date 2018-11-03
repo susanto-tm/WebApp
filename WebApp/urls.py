@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
+from django.urls import path
 from WebApp import views, forms
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
@@ -40,6 +41,7 @@ urlpatterns = [
         name='logout'),
     url(r'^signup/$', views.signup, name='signup'),
     # url(r'^signup-auth/$', views.signup, name='signup-auth'),
+    path('forum/', include('forum.urls'))
 ]
 urlpatterns += staticfiles_urlpatterns()
 

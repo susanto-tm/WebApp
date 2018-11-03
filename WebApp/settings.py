@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pagedown',
+    'widget_tweaks',
+    'forum',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

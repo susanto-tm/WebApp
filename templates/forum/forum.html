@@ -1,0 +1,16 @@
+{% extends 'WebApp/index.html' %}
+
+{% block stylesheet %}
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'forum/css/forum.css' %}?{% now 'U' %}">
+{% endblock %}
+
+{% block navbar %}
+    {% include 'WebApp/navbar.html' %}
+{% endblock %}
+
+{% block content %}
+<div style="background-color: #000; height: 100px; width: 100%;">
+
+</div>
+{% endblock %}

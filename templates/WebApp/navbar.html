@@ -5,7 +5,7 @@
         </div>
         <div class="right-align">
             <a href="{% url 'home' %}" class="items">Home</a>
-            <a href="" class="items">Ask Question</a>
+            <a href="{% url 'forum:forum-index' %}" class="items">Ask Question</a>
             {% if user.is_authenticated %}
                 <a href="#" class="items">User</a>
                 <a href="{% url 'logout' %}" class="items">Logout</a>
