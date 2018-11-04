@@ -14,6 +14,10 @@ class LoginFields(AuthenticationForm):
 
 
 class SignUpForm(UserCreationForm):
+    username = forms.CharField(max_length=30, required=True, label='',
+                               widget=forms.TextInput({
+                                   'class': 'form-control',
+                                   'placeholder': 'Username',}))
     first_name = forms.CharField(max_length=30, required=False, label='',
                                  widget=forms.TextInput({
                                      'class': 'form-control',
@@ -26,6 +30,12 @@ class SignUpForm(UserCreationForm):
                              widget=forms.TextInput({
                                  'class': 'form-control',
                                  'placeholder': 'Email Address *',}))
+    password1 = forms.CharField(label='', required=True,
+                                widget=forms.PasswordInput({
+                                    'placeholder': 'Password'}))
+    password2 = forms.CharField(label='', required=True,
+                                widget=forms.PasswordInput({
+                                    'placeholder': 'Confirm Password'}))
 
     def __init__(self, *args, **kwargs):
         super(SignUpForm, self).__init__(*args, **kwargs)

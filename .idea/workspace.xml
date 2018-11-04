@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0af5a4-761b-4092-a8c6-5b1c1d762e27" name="Default Changelist" comment="">
+    <list default="true" id="6f0af5a4-761b-4092-a8c6-5b1c1d762e27" name="Default Changelist" comment="Fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1042441905">
@@ -53,26 +59,65 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="-1995916847">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="408" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="408" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="65" column="70" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
+            <state relative-caret-position="1887">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forum/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <element signature="e#307#316#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/WebApp/index.html">
+        <entry file="file://$PROJECT_DIR$/WebApp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="595">
+              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -81,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/js/default.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -89,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="510">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -101,22 +146,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApp/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="e#30#65#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="426">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,11 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding>
-                <element signature="e#630#671#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -167,6 +197,8 @@
       <list>
         <option value="$PROJECT_DIR$/templates/WebApp/login.html" />
         <option value="$PROJECT_DIR$/WebApp/urls.py" />
+        <option value="$PROJECT_DIR$/WebApp/forms.py" />
+        <option value="$PROJECT_DIR$/WebApp/views.py" />
       </list>
     </option>
   </component>
@@ -188,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,44 +227,17 @@
               <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebApp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -249,9 +253,12 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/forms.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/WebApp.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/jsLibraryMappings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/settings.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/static/WebApp/css/layout.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/static/WebApp/js/default.js</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/urls.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/views.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
@@ -263,19 +270,178 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.local.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.vscode/settings.json</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/__init__.cpython-36.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/forms.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/forms.cpython-37.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/models.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/models.cpython-37.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/settings.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/settings.cpython-37.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/urls.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/urls.cpython-37.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/views.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/views.cpython-37.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/wsgi.cpython-36.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/static/WebApp/css/icons.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/static/WebApp/css/login.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/__pycache__/wsgi.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/forms.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/static/WebApp/css/icon.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebApp/static/WebApp/css/nav.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/admin.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/forms.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/migrations/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/autocomplete.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/base.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/changelists.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/dashboard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/fonts.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/forms.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/login.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/pagedown.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/responsive.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/responsive_rtl.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/rtl.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/vendor/select2/LICENSE-SELECT2.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/vendor/select2/select2.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/vendor/select2/select2.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/css/widgets.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/fonts/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/fonts/README.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/fonts/Roboto-Bold-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/fonts/Roboto-Light-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/fonts/Roboto-Regular-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/README.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/calendar-icons.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/gis/move_vertex_off.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/gis/move_vertex_on.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-addlink.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-alert.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-calendar.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-changelink.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-clock.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-deletelink.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-no.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-unknown-alt.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-unknown.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-viewlink.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/icon-yes.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/inline-delete.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/search.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/selector-icons.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/sorting-icons.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/tooltag-add.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/img/tooltag-arrowright.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/SelectBox.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/SelectFilter2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/actions.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/actions.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/admin/DateTimeShortcuts.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/admin/RelatedObjectLookups.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/autocomplete.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/calendar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/cancel.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/change_form.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/collapse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/collapse.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/core.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/inlines.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/inlines.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/jquery.init.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/pagedown.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/popup_response.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/prepopulate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/prepopulate.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/prepopulate_init.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/timeparse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/urlify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/jquery/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/jquery/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/jquery/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/LICENSE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/az.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/bg.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/cs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/da.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/de.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/el.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/en.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/es.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/et.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/eu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/fa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/fi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/fr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/gl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/he.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/hi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/hr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/hu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/id.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/is.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/it.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ja.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/km.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ko.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/lt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/lv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/mk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ms.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/nb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/nl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/pl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/pt-BR.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/pt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ro.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/ru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/sk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/sr-Cyrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/sr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/sv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/th.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/tr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/uk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/vi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/zh-CN.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/i18n/zh-TW.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/select2.full.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/select2/select2.full.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/xregexp/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/xregexp/xregexp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/admin/js/vendor/xregexp/xregexp.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/forum/css/forum.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/forum/js/MathJax.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/forum/js/mathjax-editing.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown-extra/Markdown.Extra.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown-extra/pagedown/Markdown.Converter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/Markdown.Converter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/Markdown.Editor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/Markdown.Sanitizer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/custom.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/demo/browser/demo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/demo/browser/demo.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/demo/node/demo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/local/Markdown.local.fr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/node-pagedown.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown/wmd-buttons.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/static/pagedown_init.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/tests.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/forum/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/home.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/home2.html</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/login2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/navbar.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/signup.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/WebApp/signup2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/forum/forum-post.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/forum/forum.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -377,6 +543,30 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="WebApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="WebApp.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Timothy\Anaconda3\envs\django\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <module name="WebApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -406,7 +596,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b544bbab-fe04-4024-8780-e74ac268f785" name="Default Changelist" comment="" />
+      <changelist id="6f0af5a4-761b-4092-a8c6-5b1c1d762e27" name="Default Changelist" comment="" />
       <created>1537284552028</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -417,21 +607,21 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23407109" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23742455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3297587" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -488,34 +678,76 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/WebApp/login.html">
+    <entry file="file://$PROJECT_DIR$/templates/WebApp/login.html" />
+    <entry file="file://$PROJECT_DIR$/templates/WebApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="306">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/WebApp/index.html">
+    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/js/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/static/WebApp/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="595">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="e#630#671#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
