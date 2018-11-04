@@ -1,0 +1,42 @@
+header.navbar#nav {
+    height: 65px;
+}
+.navbar .primary {
+    height: 100%;
+    background-color: #ffffff;
+    padding: 0 4rem;
+}
+.navbar .primary .right-align {
+    float: right;
+    height: 100%;
+    margin-top: 24px;
+}
+.navbar .primary .right-align a.items {
+    color: #fb8c00;
+    font-weight: 600;
+    margin-right: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 3px;
+}
+.navbar .primary .right-align a.items::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fb8c00;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 300ms cubic-bezier(.38,.51,.56,1);
+    transition: all 500ms cubic-bezier(.38,.51,.56,1);
+}
+.navbar .primary .right-align a.items:hover::after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
