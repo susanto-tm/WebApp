@@ -11,19 +11,6 @@ from django.contrib.auth import login, authenticate
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse_lazy
-import pyrebase
-
-config = {
-    'apiKey': "AIzaSyBwZ-lzqDRd19r26J7wzn-IsC6JuHtn6vU",
-    'authDomain': "cas-webdevelopment.firebaseapp.com",
-    'databaseURL': "https://cas-webdevelopment.firebaseio.com",
-    'projectId': "cas-webdevelopment",
-    'storageBucket': "cas-webdevelopment.appspot.com",
-    'messagingSenderId': "481704047225"
-}
-firebase = pyrebase.initialize_app(config)
-auth = firebase.auth()
-db = firebase.database()
 
 
 class HomeView(TemplateView):
