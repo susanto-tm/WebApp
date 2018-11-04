@@ -1,0 +1,30 @@
+.wmd-prompt-dialog p,
+.wmd-prompt-dialog a  {
+    color: #000000;
+}
+.wmd-preview {
+    border-top: #828282 dotted;
+    padding-top: 5px;
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Arial", sans-serif;
+}
+.wmd-preview h1,
+.wmd-preview h2,
+.wmd-preview h3,
+.wmd-preview p {
+    color: black;
+}
+.wmd-input {
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+    tab-size: 4;
+}
+.wmd-preview-title {
+    display: none;
+}
+.wmd-preview pre {
+    background-color: #dddddd;
+    padding: 10px;
+}

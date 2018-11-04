@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/layout.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/nav.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/icon.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'forum/css/forum.css' %}?{% now 'U' %}">
+    {{ form.media }}
+</head>
+<body>
+    {% include 'WebApp/navbar.html' %}
+    <form action="" method="post" autocomplete="off">
+        {% csrf_token %}
+        {% load widget_tweaks %}
+        <p class="required formLayout">
+            <span class="formLabel">Title</span>
+            {{ form.title }}
+        </p>
+        <p class="required formLayout formBody">
+            <span class="formLabel">Body</span>
+        </p>
+        <p class="required">
+            {{ form.post_field }}
+        </p>
+        <p class="formLayout">
+            <button type="submit" class="formButton">Submit Question</button>
+        </p>
+    </form>
+</body>
+</html>

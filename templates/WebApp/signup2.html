@@ -1,0 +1,12 @@
+{% extends 'WebApp/index.html' %}
+
+{% block navbar %}
+    {% include 'WebApp/navbar.html' %}
+{% endblock %}
+{% block content %}
+    <form method="POST" class="formsField">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

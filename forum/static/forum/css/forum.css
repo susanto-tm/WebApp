@@ -1,0 +1,49 @@
+.formLayout {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    min-width: 500px;
+}
+.formLayout input {
+    width: 98.5%;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+input:focus::-webkit-input-placeholder{color:transparent}
+input:focus::-moz-placeholder{color:transparent}
+input:focus::-ms-input-placeholder{color:transparent}
+::placeholder {
+    font-family: "Arial", sans-serif;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 300;
+}
+.formLabel {
+    color: #000000;
+    font-weight: 600;
+    font-size: 17px;
+}
+.formButton {
+    padding: 15px 20px;
+    background-color: rgba(251, 140, 0, 0.9);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.formButton:hover {
+    background-color: rgba(251, 140, 0, 1);
+    -webkit-transition: ease-in-out 80ms;
+    -moz-transition: ease-in-out 80ms;
+    -ms-transition: ease-in-out 80ms;
+    -o-transition: ease-in-out 80ms;
+    transition: ease-in-out 80ms;
+}
+.formBody {
+    margin-top: 0;
+    margin-bottom: 0;
+}
