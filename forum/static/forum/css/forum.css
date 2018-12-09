@@ -17,7 +17,7 @@ input:focus::-webkit-input-placeholder{color:transparent}
 input:focus::-moz-placeholder{color:transparent}
 input:focus::-ms-input-placeholder{color:transparent}
 ::placeholder {
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #b3b3b3;
     font-size: 14px;
     font-weight: 300;
