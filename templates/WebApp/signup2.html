@@ -13,6 +13,7 @@
         <form method="POST" class="formsField">
             {% csrf_token %}
             {% load widget_tweaks %}
+            <h2 class="loginHeader">Create an Account</h2>
             <p class="required">
                 {{ form.username}}
             </p>
