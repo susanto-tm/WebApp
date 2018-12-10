@@ -1,12 +1,40 @@
 {% extends 'WebApp/index.html' %}
 
+{% block stylesheet %}
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">
+{% endblock %}
+
 {% block navbar %}
     {% include 'WebApp/navbar.html' %}
 {% endblock %}
 {% block content %}
-    <form method="POST" class="formsField">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button>
-    </form>
+    <div class="centerContent">
+        <form method="POST" class="formsField">
+            {% csrf_token %}
+            {% load widget_tweaks %}
+            <p class="required">
+                {{ form.username}}
+            </p>
+            <p class="required">
+                {{ form.first_name}}
+            </p>
+            <p class="required">
+                {{ form.last_name}}
+            </p>
+            <p class="required">
+                {{ form.email}}
+            </p>
+            <p class="required">
+                {{ form.password1|add_class:"form-control" }}
+            </p>
+            <p class="required">
+                {{ form.password2|add_class:"form-control" }}
+            </p>
+            <button type="submit" class="submitButton">Submit</button>
+        </form>
+    </div>
+{% endblock %}
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'WebApp/js/forms.js' %}?{% now 'U' %}"></script>
 {% endblock %}

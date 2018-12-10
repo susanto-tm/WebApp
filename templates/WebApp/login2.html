@@ -1,12 +1,29 @@
 {% extends 'WebApp/index.html' %}
 
+{% block stylesheet %}
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/login.css' %}?{% now 'U' %}">
+{% endblock %}
+
 {% block navbar %}
     {% include 'WebApp/navbar.html' %}
 {% endblock %}
 {% block content %}
-    <form method="POST" class="formFields">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="submitButton">Submit</button>
-    </form>
+    <div class="centerContent">
+        <form method="POST" class="formFields">
+            {% csrf_token %}
+            <h2 class='loginHeader'>Login To Account</h2>
+            {% load widget_tweaks %}
+            <p class="required">
+                {{ form.username|add_class:"form-control"|attr:"placeholder:Username" }}
+            </p>
+            <p class="required">
+                {{ form.password|add_class:"form-control"|attr:"placeholder:Password" }}
+            </p>
+            <button type="submit" class="submitButton">Submit</button>
+        </form>
+    </div>
 {% endblock %}
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'WebApp/js/forms.js' %}?{% now 'U' %}"></script>
+ {% endblock %}

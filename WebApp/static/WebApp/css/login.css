@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.centerContent {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    border: none;
+    width: 300px;
+}
+input:focus::-webkit-input-placeholder{color: transparent}
+input:focus::-moz-placeholder{color: transparent}
+input:focus::-ms-input-placeholder{color: transparent}
+
+input, textarea, [contenteditable] {
+    color: #fb8c00;
+    text-align: left;
+}
+::placeholder {
+    color: #d0d0d0;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+.loginHeader {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.formFields {
+    text-align: center;
+}
+.required {
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+.form-control {
+    background-color: #FFFFFF;
+    border-bottom: #ffab45 solid 2px;
+    outline: none;
+    height: 18px;
+    font-weight: 16px;
+    padding: 10px 0;
+}
+.borderAnimateForm {
+    border-bottom: #fb8c00 solid 2px;
+    -webkit-transition: border-bottom-color 200ms ease-in-out;
+    -moz-transition: border-bottom-color 200ms ease-in-out;
+    -ms-transition: border-bottom-color 200ms ease-in-out;
+    -o-transition: border-bottom-color 200ms ease-in-out;
+    transition: border-bottom-color 200ms ease-in-out;
+}
+.submitButton {
+    border-radius: 5px;
+    width: 300px;
+    height: 38px;
+    background-color: #ffa22f;
+    color: #FFFFFF;
+    border: transparent solid;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.submitButton:hover {
+    background-color: #fb8c00;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -ms-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
