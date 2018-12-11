@@ -17,7 +17,7 @@ def index(request):
         }
     )
 
-
+# CreatePost class not valid in urls
 class CreatePost(CreateView):
     model = Post
     form_class = PostForm
@@ -26,8 +26,9 @@ class CreatePost(CreateView):
 
 @login_required()
 def create_post(request):
-    form = PostForm()
+    form = PostForm(request.POST)
     if form.is_valid():
         form.save()
+        return render(request, 'forum/forum-post.html', )
     else:
         return render(request, 'forum/forum.html', {'form': form})

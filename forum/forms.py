@@ -18,3 +18,8 @@ class PostForm(forms.ModelForm):
             'title',
             'post_field',
         ]
+
+
+class ForumPost(forms.ModelForm):
+    """Form to display title and question"""
+    title = forms.
