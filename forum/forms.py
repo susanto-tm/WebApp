@@ -20,6 +20,6 @@ class PostForm(forms.ModelForm):
         ]
 
 
-class ForumPost(forms.ModelForm):
-    """Form to display title and question"""
-    title = forms.
+# class ForumPost(forms.ModelForm):
+#     """Form to display title and question"""
+#     title = forms.

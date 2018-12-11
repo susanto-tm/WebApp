@@ -10,5 +10,5 @@ app_name = 'forum'
 
 urlpatterns = [
     url(r'^$', views.create_post, name='forum-index'),
-
+    
 ]
