@@ -19,17 +19,26 @@ def index(request):
     )
 
 # # CreatePost class not valid in urls
-# class CreatePost(CreateView):
-#     model = Post
-#     form_class = PostForm
-#     template_name = 'forum/forum.html'
+class CreatePost(CreateView):
+    model = Post
+    form_class = PostForm
+    template_name = 'forum/forum.html'
+
+    def create_post(request):
+        if form.is_valid():
+            form.save()
+        else:
+            return render(request, 'forum/forum.html', {'form': form})
 
 class PostDetailView(DetailView):
     model = Post
+    # slug_url_kwarg = 'slug'
 
     def get_context_data(self, **kwargs):
         context = super(PostDetailView, self).get_context_data(**kwargs)
         return context
+
+    # def post(self,)
 
 
 def post_detail(request, slug):
@@ -40,11 +49,14 @@ def post_detail(request, slug):
     return render(request, template, context)
 
 
-@login_required()
-def create_post(request):
-    form = PostForm(request.POST)
-    if form.is_valid():
-        form.save()
-    else:
-        return render(request, 'forum/forum.html', {'form': form})
+# @login_required()
+# def create_post(request):
+#     title = form.cleaned_data['title']
+#     form = PostForm(request.POST)
+#     model = Post
+#     if form.is_valid():
+#         form.save()
+#         return render(request, 'forum/forum-post.html', {'post':post,})
+#     else:
+#         return render(request, 'forum/forum.html', {'form': form})
 
