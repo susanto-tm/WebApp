@@ -1,5 +1,10 @@
 {% extends 'WebApp/index.html' %}
 
+{% block stylesheet %}
+  {% load staticfiles %}
+  <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/home.css' %}?{% now 'U' %}">
+{% endblock %}
+
 {% block navbar %}
     {% include 'WebApp/navbar.html' %}
 {% endblock %}
@@ -15,9 +20,9 @@
         <a href="login.html" style="color:black;">Login</a>
         {% for obj in objects_list %}
           <h1>
-            <a href="{% url 'forum:forum_post' slug=obj.slug %}">{{ obj.title }}</a>
+            <a class="questionTitle" href="{% url 'forum:forum_post' slug=obj.slug %}">{{ obj.title }}</a>
           </h1>
-          <p>{{obj.created}}</p>
+          <p class="dateCreated">{{obj.created}}</p>
         {% endfor %}
         <h1></h1>
     </td>
