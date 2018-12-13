@@ -13,6 +13,13 @@
     <td> <div align="center">
         <a href="register.html" style="color:black;">Register</a>
         <a href="login.html" style="color:black;">Login</a>
+        {% for obj in objects_list %}
+          <h1>
+            <a href="{% url 'forum:forum_post' slug=obj.slug %}">{{ obj.title }}</a>
+          </h1>
+          <p>{{obj.created}}</p>
+        {% endfor %}
+        <h1></h1>
     </td>
   
   </tr>

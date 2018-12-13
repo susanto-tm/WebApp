@@ -9,9 +9,9 @@ from django.contrib.auth import views as auth_views
 app_name = 'forum'
 
 urlpatterns = [
-    url(r'^$', login_required(CreatePost.as_view()), name='forum-index'),
-    # url(r'^$', create_post, name='forum-index'),
+    # url(r'^$', login_required(CreatePost.as_view()), name='forum-index'),
+    url(r'^$', create_post, name='forum-index'),
     # url(r'^post/(?P<slug>[-\w]+)/$', PostDetailView.as_view(), name='post_forum'),
-    url(r'^post-forum/(?P<slug>[-\w]+)/$', PostDetailView.as_view(), name='post-forum')
-    # url(r'^post/(?P<slug>[-\w]+)/$', post_detail, name='forum_post')
+    # url(r'^post-forum/(?P<slug>[-\w]+)/$', PostDetailView.as_view(), name='post-forum')
+    url(r'^post/(?P<slug>[-\w]+)/$', post_detail, name='forum_post')
 ]

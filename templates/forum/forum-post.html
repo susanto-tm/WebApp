@@ -1,11 +1,10 @@
-{% extends 'forum/forum.html' %}
+{% extends 'WebApp/index.html' %}
 
 {% block navbar %}
     {% include 'WebApp/navbar.html' %}
 {% endblock %}
 
-{% block forms %}
-    <form method="POST">
-        {{ form }}
-    </form>
+{% block content %}
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.post_field }}</p>
 {% endblock %}
