@@ -15,9 +15,9 @@
     </td>
     <td>
     </td>
-    <td> <div align="center">
-        <a href="register.html" style="color:black;">Register</a>
-        <a href="login.html" style="color:black;">Login</a>
+    <td> <div align="left">
+        <!--<a href="register.html" style="color:black;">Register</a>
+        <a href="login.html" style="color:black;">Login</a>-->
         {% for obj in objects_list %}
           <h1>
             <a class="questionTitle" href="{% url 'forum:forum_post' slug=obj.slug %}">{{ obj.title }}</a>
