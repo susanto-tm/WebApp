@@ -37,7 +37,7 @@ from django.urls import reverse_lazy
 #         return context
 
 
-def questions_list(request):
+def index_home(request):
     template = 'WebApp/home.html'
     objects_list = Post.objects.all()
 

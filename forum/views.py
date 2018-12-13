@@ -55,7 +55,6 @@ def post_detail(request, slug):
     }
     return render(request, template, context)
 
-# TODO create the next page without slugs but with normal database itself (max goodridge)
 
 @login_required()
 def create_post(request):
