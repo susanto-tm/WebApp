@@ -4,9 +4,11 @@
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'forum/css/post-forum.css' %}?{% now 'U'}">
 {% endblock %}
+
 {% block title %}
     {{ post.title }}
 {% endblock %}
+
 {% block navbar %}
     {% include 'WebApp/navbar.html' %}
 {% endblock %}
