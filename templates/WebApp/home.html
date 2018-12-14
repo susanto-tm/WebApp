@@ -4,7 +4,7 @@
   {% load staticfiles %}
   <link rel="stylesheet" type="text/css" href="{% static 'WebApp/css/home.css' %}?{% now 'U' %}">
 {% endblock %}
-
+{% block title %}Home{% endblock %}
 {% block navbar %}
     {% include 'WebApp/navbar.html' %}
 {% endblock %}
