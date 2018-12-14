@@ -11,7 +11,15 @@
 
 {% block content %}
 <div class="block_container">
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.post_field }}</p>
+    <tr>
+    <td width="442">
+      <table width="100%" height="100" valign="middle">
+        <tr>
+          <td width="100%" height="50"><h1>{{ post.title }}</h1></td>
+        </tr>
+        <tr>
+          <td width="100%" height="50"><p class="content-markdown">{{ post.post_field }}</p></td>
+        </tr>
 </div>
 {% endblock %}
+
