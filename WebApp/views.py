@@ -43,6 +43,7 @@ def index_home(request):
 
     context = {
         'objects_list': objects_list,
+        'title': 'Home',
     }
     return render(request, template, context)
 
